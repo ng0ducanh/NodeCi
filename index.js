@@ -10,6 +10,7 @@ require("./models/Blog");
 require("./services/passport");
 require("./services/cache");
 const hello = "La Duc Hao";
+const tets0 'test'
 
 mongoose.Promise = global.Promise;
 mongoose.connect(keys.mongoURI, { useMongoClient: true });
